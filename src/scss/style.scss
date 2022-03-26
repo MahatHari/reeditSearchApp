@@ -1,0 +1,11 @@
+.card-columns {
+    @media (min-width: 560px) and (max-width: 991.98px)  {
+    column-count: 2;
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px)  {
+    column-count: 4;
+  }  
+  @media (min-width: 1200px)  {
+    column-count: 5;
+  }
+}

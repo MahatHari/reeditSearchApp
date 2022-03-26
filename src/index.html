@@ -30,17 +30,17 @@
               placeholder="Search ..."
             />
           </div>
+          Sort By: &nbsp;
           <div class="form-check form-check-inline">
-            Sort By:
             <input
-              type="checkbox"
+              type="radio"
               class="form-check-input ml-2"
               type="radio"
               name="sortby"
               value="relevance"
               checked
             />
-            <label for="sortby" class="form-check-label"> Relevance </label>
+            <label class="form-check-label"> Relevance </label>
           </div>
 
           <div class="form-check form-check-inline">
@@ -75,6 +75,6 @@
       <div id="results"></div>
     </div>
 
-    <script src="js/index.js"></script>
+    <script src="js/index.js" type="module"></script>
   </body>
 </html>

@@ -1,5 +1,6 @@
 node_modules
-.parcle-cache*
-*.parcle-cache
-.parcle-cache/
+package-lock.json
+#parcel related files
 dist/
+.cache
+.parcel-cache/**
